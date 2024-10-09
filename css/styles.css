@@ -3,6 +3,9 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+img {
+    display: block;
+}
 ul, ol {
     list-style: none;
     margin: 0;
@@ -11,9 +14,7 @@ ul, ol {
 a {
     text-decoration: none;
 }
-img {
-    display: block;
-}
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
@@ -158,8 +159,7 @@ font-family: "Roboto", sans-serif;
 }
 .advantage {
     display: flex;
-    align-items: center;
-    gap: 24px;
+     gap: 24px;
 
 }
 .section-second-subtitle {
@@ -171,7 +171,7 @@ font-family: "Roboto", sans-serif;
     color: #2e2f42;
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
-.section-second-list .item {
+.section-second-list {
 flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -298,7 +298,7 @@ background-color: #fff;
         letter-spacing: 0.02em;
         color: #f4f4fd;
 }
-.logo .footer-logo {
+.footer-logo {
 display: inline-block;
 margin-bottom: 16px;
 }
