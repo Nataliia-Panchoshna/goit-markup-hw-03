@@ -225,11 +225,6 @@ border-radius: 0px 0px 4px 4px;
         color: #2e2f42;
 }
 
-.team-image {
-    display: flex;
-        align-items: center;
-}
-
 .team-text {
         font-weight: 400;
         font-size: 16px;
