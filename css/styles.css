@@ -25,7 +25,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .page-header {
-    width: 1158px;
     display: flex;
     box-sizing: border-box;
     border-bottom: 1px solid #E7E9FC;
@@ -47,6 +46,7 @@ h1, h2, h3, h4, h5, h6, p {
     overflow: hidden;
 }
 .header-container {
+    width: 1158px;
     display: flex; 
     align-items: center;
 }
@@ -238,9 +238,12 @@ border-radius: 0px 0px 4px 4px;
         color: #434455;
 }
 
-.portfolio {}
+.portfolio {
+    padding: 120px 0 120px 0;
+}
 
 .portfolio-title {
+    margin-bottom: 72px;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -249,19 +252,30 @@ border-radius: 0px 0px 4px 4px;
         color: #2e2f42;
         text-transform: capitalize;
 }
-
+.portfolio-page {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
 .portfolio-list {
+    width: calc((100% - 48px) / 3);
 background-color: #fff;
 }
 
 .portfolio-image {}
-
+.portfolio-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 .portfolio-item {
-        font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
-            letter-spacing: 0.02em;
-            color: #2e2f42;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .portfolio-text {
@@ -272,7 +286,7 @@ background-color: #fff;
         color: #434455;
 }
 .footer {
-    display: block;
+    padding: 100px 0;
     align-items: center;
     background-color: #2e2f42;
 }
@@ -283,4 +297,8 @@ background-color: #fff;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+}
+.logo .footer-logo {
+display: inline-block;
+margin-bottom: 16px;
 }
