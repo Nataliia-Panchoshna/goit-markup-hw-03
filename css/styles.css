@@ -123,9 +123,7 @@ color: #404BBF;
 }
 .section-first-solution {
     max-width: 496px;
-    padding-top: 188px;
-    padding-bottom: 48px;
-    margin: auto;
+    margin-bottom: 48px;
     align-items: center;
         font-weight: 700;
         font-size: 56px;
@@ -288,6 +286,7 @@ background-color: #fff;
 }
 
 .footer-text {
+    max-width: 264px;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
